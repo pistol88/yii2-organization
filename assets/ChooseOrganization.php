@@ -3,7 +3,7 @@ namespace pistol88\organization\assets;
 
 use yii\web\AssetBundle;
 
-class Chooseorganization extends AssetBundle
+class ChooseOrganization extends AssetBundle
 {
     public $depends = [
         'yii\web\JqueryAsset',

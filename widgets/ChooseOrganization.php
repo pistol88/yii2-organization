@@ -17,7 +17,7 @@ class ChooseOrganization extends \yii\base\Widget
             $this->actionUrl = '/organization/organization/set-global';
         }
 
-        \pistol88\organization\assets\Chooseorganization::register($this->getView());
+        \pistol88\organization\assets\ChooseOrganization::register($this->getView());
         
         return parent::init();
     }
